@@ -37,6 +37,7 @@ Follow the instructions in this section before execute the run_analysis.R.
 4. Install dplyr package **only if it's not yet installed**.
 
          install.packages("dplyr")
+
 ###Main Code Walk-Through
 #####Read Files
 Call the User-Defined Function of read.dataset to read training and test dataset together with their respective subject and activity files. File variables were defined for easier maintenance.   
