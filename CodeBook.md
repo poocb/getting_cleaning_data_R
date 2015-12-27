@@ -12,7 +12,7 @@
 <td align="center">1</td>
 <td>subject</td>
 <td>volunteer participants this experiment</td>
-<td>1 - 30</td>
+<td>1 to 30</td>
 </tr>
 <tr>
 <td align="center">2</td>
@@ -26,6 +26,12 @@ SITTING<br/>
 STANDING<br/>
 LAYING<br/>
 </td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>time of body accelerometer-mean func-x</td>
+<td>average of same variable for same subject and activity on x axis</td>
+<td>-1 to 1</td>
 </tr>
 </table>
 
