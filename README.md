@@ -22,14 +22,18 @@
 >Good luck!
 
 ###Prerequisites
-Follow the instructions in this section before execute the run_analysis.R. 
-1. Set The Working Directory Where The run_analysis.R Located.
+Follow the instructions in this section before execute the run_analysis.R.
+
+1. Set the working directory where the run_analysis.R located.
+        
          setwd("your directory path")
-2. Download The Data.
-		url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-		download.file(url,"Dataset.zip",method="curl")
-3. Extract The Data to Working Directory.
-		unzip("Dataset.zip")
+2. Download the data.
+
+         url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+         download.file(url,"Dataset.zip",method="curl")
+3. Extract the data to working directory.
+
+         unzip("Dataset.zip")
 ###Code Walk-Through
 ######Read Files
 ######Merge Files
