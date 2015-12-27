@@ -65,7 +65,7 @@ Rename to meaningful measurement variable names by calling User-Defined Function
 Rename to descriptive activities name and further categories using factor.
 
          merged_df$activity <- factor(merged_df$activity,
-				      levels = c(1:6),
+                                      levels = c(1:6),
                                       labels = c("WALKING","WALKING_UPSTAIRS",
                                                  "WALKING_DOWNSTAIRS","SITTING",
                                                  "STANDING","LAYING")
