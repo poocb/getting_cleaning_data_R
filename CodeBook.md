@@ -1,7 +1,7 @@
 #CODEBOOK FOR HUMAN ACTIVITY RECOGNITION
 
 
-<table border="1">
+<table width="100%">
 <tr>
 <th>VARIABLE #</th>
 <th>VARIABLE NAME</th>
