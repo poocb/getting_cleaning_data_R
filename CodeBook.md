@@ -30,7 +30,7 @@ LAYING<br/>
 <tr>
 <td align="center">3</td>
 <td>time of body accelerometer-mean func-x</td>
-<td>average of same variable for same subject and activity on x axis</td>
+<td>average of body accelerometer on x axis calculated from time domain</td>
 <td>-1 to 1</td>
 </tr>
 </table>
