@@ -24,7 +24,7 @@
 ###Prerequisites
 Follow the instructions in this section before execute the run_analysis.R.
 1. Set The Working Directory Where The run_analysis.R Located.
-		setwd("your directory path")
+         setwd("your directory path")
 2. Download The Data.
 		url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 		download.file(url,"Dataset.zip",method="curl")
