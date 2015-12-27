@@ -123,5 +123,5 @@ createtidyset <- function() {
             summarise_each(funs(mean))
     
     ## DO NOT write to txt file, project does not require script to do it.
-    ## so DO IT from working env.
+    ## so DO IT from command line interface.
 }
