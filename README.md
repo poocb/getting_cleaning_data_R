@@ -92,5 +92,5 @@ Load dplyr package to average variables for the group of subject and activity.
 To run the run_analysis.R and export it to txt file.
 
          tidyset <- createtidyset()
-         write.table(tidyset,"output.txt")
+         write.table(tidyset,"output.txt",row.names=FALSE)
 
