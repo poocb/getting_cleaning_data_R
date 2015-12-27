@@ -34,11 +34,23 @@ Follow the instructions in this section before execute the run_analysis.R.
 3. Extract the data to working directory.
 
          unzip("Dataset.zip")
+
 ###Code Walk-Through
-######Read Files
-######Merge Files
-######Rename Variable Names
-######Rename And Factor The Activities
-######Factor The Subject
-######Extract The Target Variables
-######Average Variables For Each Activity For Each Subject
+#####Read Files
+Call the User-Defined Function of read.dataset to read training and test dataset together with their respective subject and activity files. File variables were defined for easier maintenance.   
+
+         train_df <- read.dataset(file_train_dataset,
+                                  file_train_subject,
+                                  file_train_activity
+                                 )
+
+         test_df <- read.dataset(file_test_dataset,
+                                 file_test_subject,
+                                 file_test_activity
+                                )
+#####Merge Files
+#####Rename Variable Names
+#####Rename And Factor The Activities
+#####Factor The Subject
+#####Extract The Target Variables
+#####Average Variables For Each Activity For Each Subject
