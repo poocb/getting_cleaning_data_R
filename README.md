@@ -22,7 +22,7 @@
 >Good luck!
 
 ###Prerequisites
-Follow the instructions in this section before execute the run_analysis.R.
+Follow the instructions in this section before execute the run_analysis.R. 
 1. Set The Working Directory Where The run_analysis.R Located.
          setwd("your directory path")
 2. Download The Data.
