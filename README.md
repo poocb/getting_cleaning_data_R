@@ -57,10 +57,8 @@ Merging training and test data frames.
 #####Rename Variable Names
 Rename to meaningful measurement variable names by calling User-Defined Function of rename.header.
 
-         names(merged_df)[-1:-2] <- rename.header(paste0(
-                                                         samsung_extracted_rootfolder,
-                                                         "/features.txt")
-                                                 )
+         names(merged_df)[-1:-2] <- rename.header(paste0(samsung_extracted_rootfolder,"/features.txt"))
+
 #####Rename And Factor The Activities
 Rename to descriptive activities name and further categories using factor.
 
